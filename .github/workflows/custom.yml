@@ -1,0 +1,8 @@
+name: custom workflow
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Sanju15/test-custom-action@main
